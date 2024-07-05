@@ -1,0 +1,13 @@
+@import './base.css';
+@import './components.css';
+@import './utilities.css';
+
+.swiper-wrapper {
+  align-items: center !important;
+}
+
+.swiper-slide {
+  width: none !important;
+  display: flex !important;
+  justify-content: center !important;
+}

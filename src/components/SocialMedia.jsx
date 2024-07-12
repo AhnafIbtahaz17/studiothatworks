@@ -48,7 +48,7 @@ export const socialMediaProfiles = [
     icon: EmailIcon,
   },
   { title: "Facebook", href: "https://www.facebook.com/studioTHATworks", icon: FacebookIcon },
-  { title: "Instagram", href: "https://www.instagram.com/thecolorjournalstudio/", icon: InstagramIcon },
+  { title: "Instagram", href: "https://www.instagram.com/studiothatworks/", icon: InstagramIcon },
   { title: "LinkedIn", href: "https://www.linkedin.com/company/studiothatworks/", icon: LinkedinIcon },
 ];
 

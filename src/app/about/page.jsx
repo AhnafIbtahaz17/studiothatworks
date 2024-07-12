@@ -21,6 +21,7 @@ import imageLeonardKrasner from '@/images/team/leonard-krasner.jpg'
 import imageLeslieAlexander from '@/images/team/leslie-alexander.jpg'
 import imageMichaelFoster from '@/images/team/michael-foster.jpg'
 import imageWhitneyFrancis from '@/images/team/whitney-francis.jpg'
+import TeamImage from '@/images/TeamImage.jpg'
 import { loadArticles } from '@/lib/mdx'
 
 function Culture() {
@@ -42,7 +43,7 @@ function Culture() {
             are allowed to have LinkedIn profiles.
           </GridListItem>
           <GridListItem title="Trust" invert>
-            We don’t care when our team works just as long as they are working
+            We don't care when our team works just as long as they are working
             every waking second.
           </GridListItem>
           <GridListItem title="Compassion" invert>
@@ -188,27 +189,24 @@ export default async function About() {
 
   return (
     <>
-      <PageIntro eyebrow="About us" title="Our strength is collaboration">
+      <PageIntro eyebrow="About us" title="Our Team">
         <p>
-          We believe that our strength lies in our collaborative approach, which
-          puts our clients at the center of everything we do.
+          Three architects - Abrar, Itminan, and Tanima - aspiring to transform environments into living experiences that tell stories of the connections fostered between the people who inhabit them.
         </p>
         <div className="mt-10 max-w-2xl space-y-6 text-base">
-          <p>
-            Studio was started by three friends who noticed that developer
-            studios were charging clients double what an in-house team would
-            cost. Since the beginning, we have been committed to doing things
-            differently by charging triple instead.
-          </p>
-          <p>
-            At Studio, we’re more than just colleagues — we’re a family. This
+          {/* <p>
+            Three architects - Abrar, Itminan, and Tanima - aspiring to transform environments into living experiences that tell stories of the connections fostered between the people who inhabit them.
+          </p> */}
+          {/* <p>
+            At Studio, we're more than just colleagues — we're a family. This
             means we pay very little and expect people to work late. We want our
             employees to bring their whole selves to work. In return, we just
             ask that they keep themselves there until at least 6:30pm.
-          </p>
+          </p> */}
         </div>
+        <Image src={TeamImage} className="w-full" />
       </PageIntro>
-      <Container className="mt-16">
+      {/* <Container className="mt-16">
         <StatList>
           <StatListItem value="35" label="Underpaid employees" />
           <StatListItem value="52" label="Placated clients" />
@@ -227,7 +225,7 @@ export default async function About() {
         pages={blogArticles}
       />
 
-      <ContactSection />
+      <ContactSection /> */}
     </>
   )
 }

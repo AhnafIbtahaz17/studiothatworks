@@ -1,8 +1,9 @@
 import { PageIntro } from '@/components/PageIntro'
 import Image from 'next/image'
-import process from '@/images/process.jpg'
+import Publication1 from '@/images/Publication/Publication1.png'
+import Publication2 from '@/images/Publication/Publication2.jpg'
 
-export default async function About() {
+export default async function Publications() {
   return (
     <>
       <PageIntro title="Our Process">
@@ -20,7 +21,14 @@ export default async function About() {
             ask that they keep themselves there until at least 6:30pm.
           </p>
         </div> */}
-        <Image src={process} className="w-full" />
+        <div className='grid grid-cols-1 md:grid-cols-2 gap-x-6'>
+          <a href="https://www.showcase.com.bd/heaven-on-a-plate/a-culinary-serenity-zen-dhanmmondi/">
+            <Image src={Publication1} className="w-full rounded-lg overflow-hidden" />
+          </a>
+          <a className='rounded-lg overflow-hidden' href="https://www.showcase.com.bd/heaven-on-a-plate/the-floral-canopy-of-delight/">
+            <Image src={Publication2} className="w-full rounded-lg overflow-hidden" />
+          </a>
+        </div>
       </PageIntro>
     </>
   )

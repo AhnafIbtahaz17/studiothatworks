@@ -136,7 +136,7 @@ export default async function Home() {
 
       <CaseStudies />
 
-      <ContactSection />
+      {/* <ContactSection /> */}
     </>
   );
 }

@@ -3,7 +3,7 @@ import Image from "next/image";
 
 import { Container } from '@/components/Container'
 import { FadeIn } from '@/components/FadeIn'
-import { Logo } from '@/components/Logo'
+// import { Logo } from '@/components/Logo'
 import { socialMediaProfiles } from '@/components/SocialMedia'
 import logo from "@/images/logo.png";
 
@@ -94,15 +94,18 @@ export function Footer() {
     <Container as="footer" className="mt-24 w-full sm:mt-32 lg:mt-40">
       <FadeIn>
         <div className="grid grid-cols-1 gap-x-8 gap-y-16 lg:grid-cols-2">
-          <div className="flex">
-            <FooterLogo />
-          </div>
           <Navigation />
+          {/* <div className="flex">
+            <FooterLogo />
+          </div> */}
         </div>
-        <div className="mb-20 mt-24 flex flex-wrap items-end justify-end gap-x-6 gap-y-4 border-t border-neutral-950/10 pt-12">
+        <div className="mb-20 mt-24 flex flex-wrap items-end justify-between gap-x-6 gap-y-4 border-t border-neutral-950/10 pt-12">
           {/* <Link href="/" aria-label="Home">
             <Logo className="h-8" fillOnHover />
           </Link> */}
+          <Link href="/" aria-label="Home">
+            <Image src={logo} className="h-12 w-auto pb-4" />
+          </Link>
           <p className="text-sm text-neutral-700">
             © Studio That Works Inc. 2023
           </p>

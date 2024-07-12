@@ -22,6 +22,7 @@ import logoPhobia from '@/images/clients/phobia/logo-dark.svg'
 import logoUnseal from '@/images/clients/unseal/logo-dark.svg'
 import BrunchAtBailey from "@/images/BrunchAtBailey.png";
 import WebAble from "@/images/WebAble.png";
+import bb from "@/images/bb.png";
 import Zen from "@/images/Zen.png";
 import Slider from '@/components/Slider';
 
@@ -29,6 +30,7 @@ const importAll = (r) => r.keys().map(r);
 const p1 = importAll(require.context('../../images/PROJECTS/p1'));
 const p2 = importAll(require.context('../../images/PROJECTS/p2'));
 const p3 = importAll(require.context('../../images/PROJECTS/p3'));
+const g = importAll(require.context('../../images/Graphics'));
 
 const caseStudies = [
   {
@@ -51,6 +53,13 @@ const caseStudies = [
     logo: WebAble,
     date: "December 2023",
     images: p3,
+  },
+  {
+    client: "",
+    service: "Graphics",
+    logo: bb,
+    date: "",
+    images: g,
   },
 ];
 
@@ -129,15 +138,15 @@ export default async function Work() {
 
       <CaseStudies caseStudies={caseStudies} />
 
-      <Testimonial
+      {/* <Testimonial
         className="mt-24 sm:mt-32 lg:mt-40"
         client={{ name: "Mail Smirk", logo: logoMailSmirk }}
       >
         We approached <em>Studio</em> because we loved their past work. They
         delivered something remarkably similar in record time.
-      </Testimonial>
+      </Testimonial> */}
 
-      <ContactSection />
+      {/* <ContactSection /> */}
     </>
   );
 }

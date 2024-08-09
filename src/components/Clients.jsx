@@ -7,6 +7,7 @@ import green1 from "@/images/halfcircles/green1.png";
 import green2 from "@/images/halfcircles/green2.png";
 import orange1 from "@/images/halfcircles/orange1.png";
 import orange2 from "@/images/halfcircles/orange2.png";
+import Link from "next/link";
 
 const items = [
   ["Architecture", blue1],
@@ -36,7 +37,7 @@ export function Clients() {
                 <FadeIn>
                   <div className="flex gap-2 text-white">
                     <Image src={color} alt={text} className="h-6 w-auto" />
-                    <p>{text}</p>
+                    <Link href="/projects">{text}</Link>
                   </div>
                 </FadeIn>
               </li>

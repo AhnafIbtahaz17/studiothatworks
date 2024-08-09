@@ -6,10 +6,10 @@ export default async function About() {
   return (
     <>
       <PageIntro title="Our Process">
-        {/* <p>
-          Three architects - Abrar, Itminan, and Tanima - aspiring to transform environments into living experiences that tell stories of the connections fostered between the people who inhabit them.
+        <p>
+          We are dedicated to working hand-in-hand with our clients throughout their design journey. Whether you need assistance with accentuating a corner or require comprehensive guidance from initial concept to final realization, we are committed to bringing your vision to life.
         </p>
-        <div className="mt-10 max-w-2xl space-y-6 text-base">
+        {/* <div className="mt-10 max-w-2xl space-y-6 text-base">
           <p>
             Three architects - Abrar, Itminan, and Tanima - aspiring to transform environments into living experiences that tell stories of the connections fostered between the people who inhabit them.
           </p>
@@ -20,7 +20,9 @@ export default async function About() {
             ask that they keep themselves there until at least 6:30pm.
           </p>
         </div> */}
-        <Image src={process} className="w-full" />
+        <div className='w-full grid place-items-center'>
+          <Image src={process} className="w-full" />
+        </div>
       </PageIntro>
     </>
   )

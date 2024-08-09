@@ -184,12 +184,12 @@ export const metadata = {
     'We believe that our strength lies in our collaborative approach, which puts our clients at the center of everything we do.',
 }
 
-export default async function About() {
+export default async function WhosThat() {
   let blogArticles = (await loadArticles()).slice(0, 2)
 
   return (
     <>
-      <PageIntro eyebrow="About us" title="Our Team">
+      <PageIntro eyebrow="About us" title="Who's That?">
         <p>
           Three architects - Abrar, Itminan, and Tanima - aspiring to transform environments into living experiences that tell stories of the connections fostered between the people who inhabit them.
         </p>

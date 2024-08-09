@@ -55,8 +55,8 @@ const caseStudies = [
     images: p3,
   },
   {
-    client: "",
-    service: "Graphics",
+    client: "Graphics",
+    service: "",
     logo: bb,
     date: "",
     images: g,
@@ -69,7 +69,7 @@ function CaseStudies({ caseStudies }) {
     <Container className="mt-40">
       <FadeIn>
         <h2 className="font-display text-2xl font-semibold text-neutral-950">
-          Case studies
+          Projects
         </h2>
       </FadeIn>
       <div className="mt-10 space-y-20 sm:space-y-24 lg:space-y-32">

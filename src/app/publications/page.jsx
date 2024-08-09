@@ -6,7 +6,7 @@ import Publication2 from '@/images/Publication/Publication2.jpg'
 export default async function Publications() {
   return (
     <>
-      <PageIntro title="Our Process">
+      <PageIntro title="Our Publications">
         {/* <p>
           Three architects - Abrar, Itminan, and Tanima - aspiring to transform environments into living experiences that tell stories of the connections fostered between the people who inhabit them.
         </p>

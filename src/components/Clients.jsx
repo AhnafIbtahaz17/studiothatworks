@@ -30,7 +30,7 @@ export function Clients() {
         <FadeInStagger faster>
           <ul
             role="list"
-            className="mt-10 grid grid-cols-2 gap-x-8 gap-y-10 lg:grid-cols-3"
+            className="mt-10 grid grid-cols-2 gap-x-24 gap-y-10 lg:grid-cols-3"
           >
             {items.map(([text, color]) => (
               <li key={text}>

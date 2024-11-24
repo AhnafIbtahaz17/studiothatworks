@@ -189,7 +189,7 @@ export default async function WhosThat() {
 
   return (
     <>
-      <PageIntro eyebrow="About us" title="Who's That?">
+      <PageIntro eyebrow="About us" title="Who's THAT?">
         <p>
           Three architects - Abrar, Itminan, and Tanima - aspiring to transform environments into living experiences that tell stories of the connections fostered between the people who inhabit them.
         </p>

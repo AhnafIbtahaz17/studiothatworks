@@ -27,7 +27,7 @@ const navigation = [
   {
     title: "Studio",
     links: [
-      { title: "Who's that", href: "/about" },
+      { title: "Who's THAT", href: "/about" },
       { title: "Process", href: "/process" },
       { title: "Publication", href: "/publication" },
       { title: "Contact us", href: "/contact" },

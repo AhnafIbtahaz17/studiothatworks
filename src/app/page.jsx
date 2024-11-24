@@ -116,15 +116,15 @@ export default async function Home() {
               <p>works</p>
             </div> */}
             {/* <Image src={logo} /> */}
-            <Image src={studiothatworks} className="h-28 sm:h-40 md:h-64 lg:h-72 w-auto" />
-            <Image src={logo} className="h-28 sm:h-40 md:h-64 lg:h-72 w-auto" />
+            <Image src={studiothatworks} className="h-28 sm:h-40 md:h-32 lg:h-40 w-auto" />
+            <Image src={logo} className="ml-3 h-28 sm:h-40 md:h-32 lg:h-40 w-auto" />
             {/* <img
               src="/logo.png"
               className="max-h-32 sm:max-h-64 md:max-h-none"
               alt=""
             /> */}
           </div>
-          <p className="mt-16 text-4xl text-neutral-600 font-futura">
+          <p className="mt-8 text-2xl text-neutral-00 font-futura">
             Fusing youthful innovation with bold architecture
           </p>
         </FadeIn>
